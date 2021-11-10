@@ -1,0 +1,31 @@
+{
+  "name": "goit-node-hw-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serji2158/Node.js_CLI-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serji2158/Node.js_CLI-app/issues"
+  },
+  "homepage": "https://github.com/Serji2158/Node.js_CLI-app#readme",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
